@@ -2,4 +2,4 @@
 /resources/_gen/*
 /public/*
 *.log
-themes/airspace-hugo/exempleSite/*
+/themes/airspace-hugo/exempleSite/*
