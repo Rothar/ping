@@ -1,3 +1,238 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+################################# Basic configuration #########################
+# Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
+baseURL = "http://examplesite.org"
+title = "Vauvillers Tennis de Table | le ping en Haute-Saône"
+theme = "airspace-hugo"
+# Number of posts per page in list view
+paginate = "12"
+# Post excerpt length
+summaryLength = "50"
+# Disabled languages
+disableLanguages = ["en"]
+# Short name to enable Disqus comments
+disqusShortname = "" # Get your shortname from here: https://disqus.com/profile/signup/
+# Measurement ID (G-XXXXXXX) to enable Google Analytics
+googleAnalytics = ""
+
+defaultContentLanguage = "fr"
+
+
+################################# Output formats ##############################
+# Documentation: https://gohugo.io/templates/output-formats/#customizing-output-formats
+
+[outputs]
+home = [ "HTML" ]
+
+
+################################# Markup ######################################
+# Documentation: https://gohugo.io/getting-started/configuration-markup
+
+[markup.goldmark.renderer]
+# Allow "unsafe" HTML in Markdown
+unsafe = true
+
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 6
+ordered = false
+
+
+################################# Default parameters ##########################
+[params]
+logo = "images/racket-smile.svg"
+# OpenGraph / Twitter Card metadata
+description = "Vauvillers Tennis de Table : le ping dans les Vosges Saônoises."
+author = "Vauvillers Tennis de Table"
+image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
+
+
+################################# Sidebar widgets #############################
+[params.widgets]
+sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
+
+
+################################# Contact page ################################
+[params.contact]
+# Address block
+phone = "0124857985320"
+email = "glangonet@gmail.com"
+location = """
+**Vauvillers Tennis de Table**  
+RUE DE LA MALADIÈRE 
+SALLE RENE BRON
+ANNEXE DU GYMNASE DU COLLÈGE 
+70210 VAUVILLERS
+"""
+# Whether to display text descriptors (like "E-mail: ", "Phone: ") before the address block elements
+address_descriptors = false
+[params.contact.form]
+enable = true
+# Whether to use [Netlify Forms](https://docs.netlify.com/forms/setup/)
+use_netlify = true
+# Form action
+## Fill in your Form ID URL for Formspree.io, e.g. `https://formspree.io/f/{form_id}`
+## Ignored if `use_netlify = true` (custom [success page](https://docs.netlify.com/forms/setup/#success-messages) is already included) 
+action = "#"
+# Image on custom success page `/message_sent.html`
+success_image = "images/racket-smile.svg"
+
+
+################################# Street map ##################################
+[params.gmap]
+enable = true
+
+
+################################# Preloader ###################################
+[params.preloader]
+enable = true
+preloader = "" # use .png , .svg or .gif image
+
+
+################################# Cookies #####################################
+[params.cookies]
+enable = true
+expire_days = 2
+
+
+################################# counter.dev analytics #######################
+# This is a [privacy-friendly alternative](https://counter.dev/privacy.html) to Google Analytics & Co.
+[params.counter]
+enable = true
+# counter.dev username, see https://counter.dev/setup.html
+username = ""
+
+
+################################# Social Media ################################
+[[params.social]]
+icon = "ion-social-googleplus-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "#"
+
+[[params.social]]
+icon = "ion-social-linkedin-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "#"
+
+[[params.social]]
+icon = "ion-social-pinterest-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "#"
+
+[[params.social]]
+icon = "ion-social-dribbble-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "#"
+
+[[params.social]]
+icon = "ion-social-twitter-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "#"
+
+[[params.social]]
+icon = "ion-social-facebook-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "#"
+
+
+################################# Plugins #####################################
+# css custom
+[[params.plugins.css]]
+link = "css/custom.css"
+attributes = "media='screen'"
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/css/bootstrap.min.css"
+attributes = "media='screen'"
+
+[[params.plugins.css]]
+link = "plugins/ionicons/css/ionicons.min.css"
+attributes = ""
+
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.min.css"
+attributes = ""
+
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+attributes = ""
+
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.min.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/bootstrap/js/bootstrap.min.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/magnific-popup/magnific-popup.min.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+attributes = ""
+
+
+
+
+################################# Vauvillers T.T. ##########################
+[languages.fr]
+languageName = "Vauvillers T.T."
+languageCode = "fr-FR"
+contentDir = "content/vtt"
+weight = 1
+copyright = "Copyright &copy; 2021 [Themefisher](https://themefisher.com). Tous droits réservés."
+
+# Main menu
+# NOTE: Leaf entries linking to content should be defined in the content file's respective front matter.
+[[languages.fr.menu.main]]
+hasChildren = true
+weight = 5
+name = "Plus"
+
+# Footer menu
+[[languages.fr.menu.footer]]
+name = "À propos"
+URL = "about"
+weight = 1
+
+[[languages.fr.menu.footer]]
+name = "Partenaires"
+URL = "partenaire"
+weight = 2
+
+[[languages.fr.menu.footer]]
+name = "Service"
+URL = "service"
+weight = 3
+
+[[languages.fr.menu.footer]]
+name = "Ping au collège"
+URL = "college"
+weight = 4
+
+[[languages.fr.menu.footer]]
+name = "Questions fréquentes"
+URL = "faq"
+weight = 5
+
+[[languages.fr.menu.footer]]
+name = "Contact"
+URL = "contact"
+weight = 6
+
+################################# Trémonzey #########################
+[languages.trem]
+languageName = "Trémonzey"
+languageCode = "fr-FR"
+contentDir = "content/trem"
+weight = 2
+copyright = "Copyright &copy; 2021 [Themefisher](https://themefisher.com). All Rights Reserved."
+
+# Main menu
+# NOTE: Leaf entries linking to content should be defined in the content file's respective front matter.
+
+[[languages.trem.menu.footer]]
+name = "Contact"
+URL = "contact"
+weight = 6

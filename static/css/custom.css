@@ -1,0 +1,17 @@
+.smallmap {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ccc;
+}
+.navigation .navbar-brand {
+    padding-top:0 !important;
+}
+#logosite {
+    width:90px;
+    margin-top: 5px;
+    display: inline-block;
+    margin-right: 5px;;
+}
+.portfolio-single-page .project-details strong {
+    display: inline-block;
+}
