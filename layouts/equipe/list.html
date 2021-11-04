@@ -1,0 +1,48 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+{{ $data := index site.Data site.Language.Lang }}
+
+<!-- Portfolio Start -->
+<section class="portfolio-work">
+  <div class="container">
+    <div class="row">
+
+      {{ with .Params.about }}
+      {{ if .enable }}
+      <div class="col-md-12">
+        {{ with .content }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
+      </div>
+      {{ end }}
+      {{ end }}
+
+      <div class="col-md-12">
+        
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <div class="block">
+              <div>
+                <h3>Listes des équipes</h3>
+              </div>
+              <small>powered by <a target="_blank" href="https://www.pingpocket.fr" >www.pingpocket.fr</a></small><iframe frameborder="1" name="pingpocket" width="100%" height="800" scrolling="auto" 
+src="https://www.pingpocket.fr/app/fftt/clubs/02700005/equipes" id="deepgray"><p>iframe non supportée</p></iframe>
+
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="block">
+              <div>
+                <h3>Listes des joueurs</h3>
+              </div>
+              <small>powered by <a target="_blank" href="https://www.pingpocket.fr" >www.pingpocket.fr</a></small><iframe frameborder="1" name="pingpocket" width="100%" height="800" scrolling="auto" src="https://www.pingpocket.fr/app/fftt/clubs/02700005/licencies?SORT=OFFICIAL_RANK" ><p>iframe non supportée</p></iframe>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}
