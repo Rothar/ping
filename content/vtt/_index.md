@@ -7,63 +7,82 @@ menu:
 ############################### Banner ##############################
 banner:
   enable: true
-  bg_image: "images/slider-bg.jpg"
+  bg_image: "images/salle/grand-angle.jpg"
   bg_overlay: true
-  title: "A Digital Marketing <br/> & Design Agency"
-  content: "We love the Web and the work we do.We work closely with our clients to deliver  the best possible solutions for their needs"
+  title: "VAUVILLERS TENNIS DE TABLE <br/> Bienvenue au club"
+  content: "La compétition bat son plein, n'hésitez pas à venir nous encourager !"
   button:
     enable: true
-    label: "Discover Our Project"
-    link: "project"
+    label: "Consulter les résultats"
+    link: "news"
 
 ############################# About #################################
 about:
   enable: true
-  title: "About Us"
-  description: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id."
-  image: "images/wrapper-img.png"
+  title: "Vauvillers T.T."
+  description: "Le club compte près de 90 licenciés (compétition et loisir) et est ouvert à toutes et tous."
+  content: "
+<br>
+N° d'affiliation : 11700005​
 
+
+Ligue : Bourgogne-Franche Comté
+
+
+Comité de Haute-Saône
+
+
+Le club :
+
+
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Président :   BUBBA Emilio
+
+
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entraîneur : COLOMBIN Mickaël
+
+
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact :      PREVOST Alain
+"
+  image: "images/equipe/Team2.jpg"
+  button:
+    enable: true
+    label: "Page contact"
+    link: "contact"
 
 ######################### Portfolio ###############################
 portfolio:
   enable: true
-  bg_image: "images/feature-bg.jpg"
-  title: "WE BELIEVE IN GREAT IDEAS"
-  content: " Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+  bg_image: "images/free/bluebg.jpg"
+  title: "Joueurs et équipes"
+  content: "Si vous désirez avoir le détail des joueurs et équipe engagés (merci pingpocket!) 
+  C'est par ici !"
 
-
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-  "
   button:
     enable: true
-    label: "View Works"
-    link: "project"
+    label: "Data pingpocket"
+    link: "equipe"
 
 
 ############################# Service ############################
 service:
-  enable: false
+  enable: true
   # service content comes from "service.md" file
 
 
 ############################ call to action ###########################
 cta:
   enable: true
-  bg_image: "images/call-to-action-bg.jpg"
-  title: "We design delightful digital experiences."
-  content: "Read more about what we do and our philosophy of design. Judge for yourself The work and results <br> we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+  bg_image: "images/entrainement/gymnase1.jpg"
+  title: "Activités sportives"
+  content: ""
   button:
     enable: true
-    label: "Tell Us Your Story"
-    link: "contact"
+    label: "Horaires entrainements, stages etc..."
+    link: "project"
 
 ############################# Funfacts ###############################
 funfacts:
-  enable: true
+  enable: false
   title: "Fun Facts About Us"
   description: "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"
   funfact_item:
