@@ -2,8 +2,8 @@
 title: "Taxi Diche Sylvie"
 description: "Déplacement personnel, professionnel ou médical ? Demandez Sylvie !"
 draft: false
-image : "images/portfolio/work6.jpg"
-bg_image: "images/feature-bg.jpg"
+image : "images/portfolio/partenaire/taxisylvie/taxi_sylvie2.jpg"
+bg_image: "images/portfolio/partenaire/taxisylvie/taxi_sylvie2.jpg"
 category: "Services"
 information:
   - label : "Client"

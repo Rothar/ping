@@ -1,10 +1,10 @@
 ---
-title: "MEDI Service"
-description: "Matériel au service des professionnels de santé depuis plus de 30 ans."
+title: "Code Remorques"
+description: "Accessoires et pièces remorques"
 draft: false
-image : "images/portfolio/partenaire/mediservice/logo-medi-service.png"
-bg_image: "images/portfolio/partenaire/mediservice/logo-medi-service.png"
-category: "Services"
+image : "images/portfolio/partenaire/code/logo-code.png"
+bg_image: "images/portfolio/partenaire/code/logo-code.png"
+category: "Automobile"
 information:
   - label : "Client"
     info : "Jannie Kelonsky"

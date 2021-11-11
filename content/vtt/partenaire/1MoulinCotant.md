@@ -2,8 +2,8 @@
 title: "Moulin Cotant"
 description: "Gourmandise et quiétude dans un cadre bucolique et verdoyant."
 draft: false
-image : "images/portfolio/work1.jpg"
-bg_image: "images/feature-bg.jpg"
+image : "images/portfolio/partenaire/moulincotant/MoulinCotant1.jpg"
+bg_image: "images/portfolio/partenaire/moulincotant/logo_mc_vert.png"
 category: "Restauration"
 information:
   - label : "Web"
@@ -14,10 +14,6 @@ information:
     info : "contact@moulincotant.fr"
   - label : "tél"
     info : "09 54 02 74 53"
-  - label : ""
-    info : ""
-  - label : ""
-    info : ""
 ---
 
 ## Behance Website Redesign

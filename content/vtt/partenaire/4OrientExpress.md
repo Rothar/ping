@@ -2,8 +2,8 @@
 title: "L'Orient Express"
 description: "L'Orient Express s'arrête à Vauvillers !!"
 draft: false
-image : "images/portfolio/work4.jpg"
-bg_image: "images/feature-bg.jpg"
+image : "images/portfolio/partenaire/orientexpress/orient-express.png"
+bg_image: "images/portfolio/partenaire/orientexpress/orient-express.png"
 category: "Restauration"
 information:
   - label : "Client"

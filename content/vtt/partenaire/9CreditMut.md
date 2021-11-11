@@ -2,8 +2,8 @@
 title: "Crédit Mutuel"
 description: "Banque mutualiste qui appartient à ses clients et qui soutient le club de Vauvillers :-)"
 draft: false
-image : "images/portfolio/work6.jpg"
-bg_image: "images/feature-bg.jpg"
+image : "images/portfolio/partenaire/creditmutuel/CreditMutuel.png"
+bg_image: "images/portfolio/partenaire/creditmutuel/CreditMutuel.png"
 category: "Banque"
 information:
   - label : "Client"

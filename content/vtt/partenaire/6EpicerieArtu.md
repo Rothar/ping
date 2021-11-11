@@ -2,8 +2,8 @@
 title: "Epicerie ARTU"
 description: "Pour vos courses de proximité à Vauvillers et à Amance !"
 draft: false
-image : "images/portfolio/work6.jpg"
-bg_image: "images/feature-bg.jpg"
+image : "images/portfolio/partenaire/proxi/proxi-super.png"
+bg_image: "images/portfolio/partenaire/proxi/proxi-super.png"
 category: "Distribution"
 information:
   - label : "Client"

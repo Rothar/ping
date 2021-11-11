@@ -2,8 +2,8 @@
 title: "Intermarché"
 description: "Faites vos courses !"
 draft: false
-image : "images/portfolio/work2.jpg"
-bg_image: "images/feature-bg.jpg"
+image : "images/portfolio/partenaire/intermarche/Inter1.jpg"
+bg_image: "images/portfolio/partenaire/intermarche/Intermarche.gif"
 category: "Distribution"
 information:
   - label : "Client"

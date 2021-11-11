@@ -2,8 +2,8 @@
 title: "COFATHIM"
 description: "On parle ici de phytonutrition. Pour en savoir plus, cliquez sur le lien ci-dessous :-)"
 draft: false
-image : "images/portfolio/work5.jpg"
-bg_image: "images/feature-bg.jpg"
+image : "images/portfolio/partenaire/cofathim/img_edito.jpg"
+bg_image: "images/portfolio/partenaire/cofathim/logo-Cofathim.jpg"
 category: "Phytonutrition"
 information:
   - label : "Client"
