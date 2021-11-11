@@ -2,12 +2,12 @@
 title: "Horaires d'entrainement"
 description: "Tous les horaires d'entrainement, selon les niveaux, à Vauvillers mais aussi à Amance et à Trémonzey !"
 draft: false
-image : "images/entrainement/2020_reprise_1.jpg"
+image : "images/entrainement/entrainement/2020_reprise_1.jpg"
 bg_image: "images/none.jpg"
 category: "Entrainement"
 carrousel:
   enable: true
-  folder: "entrainement"
+  folder: "entrainement/entrainement"
 information:
   - label : "Salle René BRON"
     info : "Rue de la Maladière 
