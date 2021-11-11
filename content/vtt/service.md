@@ -14,7 +14,7 @@ menu:
 about:
   enable : true
   title : "Encadrement"
-  content : "Le club de Vauvillers à la chance d'avoir un entraineur, diplômé d'état, qui dispense ses bons conseils lors des entrainements mais également lors des compétitions (comme les individuelles où une de nos joeuses à récemment atteint le niveau national dans sa catégorie !).
+  content : "Le club de Vauvillers à la chance d'avoir un entraineur, diplômé d'état, qui dispense ses bons conseils lors des entrainements mais également lors des compétitions (comme les individuelles où une de nos joueuses à récemment atteint le niveau national dans sa catégorie !).
 
 
   Le club peut alors prétendre accompagner les joueurs de tous niveaux et se voit attribuer plusieurs labels de confiance de la part de la FFTT."

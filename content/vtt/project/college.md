@@ -1,6 +1,6 @@
 ---
-title: "Rio Furniture"
-description: "this is meta description"
+title: "Sport études"
+description: "Le ping au collège"
 draft: false
 image : "images/entrainement/college/groupe2019.jpg"
 bg_image: "images/entrainement/college/groupe2019.jpg"
@@ -9,42 +9,29 @@ carrousel:
   enable: true
   folder: "entrainement/college"
 information:
-  - label : "Entraineur"
-    info : "Mickaël Colombin"
-  - label : "Email"
-    info : "ttvauvillers.mickael@gmail.com"
-  - label : "Page contact"
-    info : "[cliquez ici](../../contact)"
-  - label : "Horaires d'entrainement"
-    info : "[cliquez ici](../entrainement)"
+  - label : "Professeur"
+    info : "M. Rongeot"
+  - label : "Tél collège"
+    info : "03 84 92 80 66"
+  - label : "Web"
+    info : "http://www.clg-charles-peguy.ac-besancon.fr/"
 ---
 
-## Behance Website Redesign
+## Sport étude au collège Charles Péguy
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas officiis cumque, harum dicta necessitatibus
-reprehenderit, delectus molestiae, impedit alias adipisci distinctio voluptas. Tempora modi amet voluptate
-at provident soluta consequatur.
+Depuis 2017, le collège de Vauvillers compte une section sport étude Tennis de Table.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quibusdam sed, neque recusandae, est
-odit. A facere tempore soluta laborum.
+​
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, rem eaque facilis. Sit, voluptas?
-Error soluta odio, harum tenetur, alias in iure ipsam blanditiis illo, ratione, magnam a minima incidunt!
-Suscipit facilis, ut maxime libero necessitatibus, rerum aut voluptates aliquam maiores iusto qui
-temporibus nesciunt, incidunt in quasi. Veniam aliquid ea aperiam, obcaecati voluptate ab, temporibus
-fugiat at, inventore molestiae quibusdam, modi numquam debitis libero aut eum. Architecto sit quia quidem
-odit, quasi eveniet reprehenderit rerum dolorem voluptate sed aspernatur numquam enim, adipisci iste optio
-ea libero laboriosam praesentium aperiam nobis vero tempore consequuntur sapiente eos at. Suscipit quis
-voluptatibus temporibus dolore consectetur ex excepturi adipisci sunt. Maxime aperiam eos illum minima
-aliquid voluptate autem qui at impedit recusandae earum possimus, alias, maiores sint, sed quia quis aut
-cupiditate voluptatem reiciendis. Facilis nobis assumenda totam officiis dicta autem dolorem quidem
-similique, delectus rerum laborum veritatis, cum magnam dignissimos necessitatibus possimus error, eius
-omnis veniam culpa, porro officia adipisci exercitationem minus hic. Ipsum veritatis repudiandae nulla quo
-dicta voluptates tenetur mollitia perferendis sequi, magnam doloremque odit similique, sit, voluptas unde
-iste molestias. Accusantium, corporis quibusdam quod in animi earum alias autem ipsum. Eaque rem numquam
-delectus veniam commodi doloribus consequatur deleniti?
+16 élèves dans la section.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores neque vero quasi quisquam atque in,
-libero ab sunt eius! Nesciunt laboriosam alias corporis sit accusantium voluptate sapiente debitis quos
-mollitia saepe maxime ipsum facilis dolore voluptas inventore veniam deleniti, eligendi harum aperiam iusto
-culpa? Delectus dolorum facere quasi iure explicabo?
+3 entraînements spécifiques par semaine (lundi, jeudi et  vendredi).
+
+​
+
+Les sélections se font sur une demi journée avec test physique, et compétition de tennis de table.
+
+Elles ont lieu chaque année en mars pour l’année suivante.
+
+
+M. Rongeot est le professeur de sport coordinateur (joignable au collège).

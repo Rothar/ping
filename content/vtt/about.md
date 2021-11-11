@@ -1,32 +1,57 @@
 ---
-title: "About Our Company"
-description: "this is meta description"
-bg_image: "images/feature-bg.jpg"
+title: "L'histoire du club"
+description: "Aux origines"
+bg_image: "images/salle/Salle1.jpg"
 layout: "about"
 draft: false
 menu:
   main:
-    name: "À propos"
-    weight: 2
+    name: "Aux origines"
+    weight: 4
 
 
 ################################## About #####################################
 about:
-  enable : true
-  image : "images/company/about.jpg"
-  title : "We strive to be the best and <br> make awesome work."
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius enim, accusantium repellat ex autem numquam iure officiis facere vitae itaque.
+  enable: true
+  image: "images/blog/bronr.jpg"
+  title: "René Bron - Fondateur du club"
+  content: "A la naissance de la maison des jeunes (en 1954), initiée par M. Giberton, le maire de l'époque, il fallait créer un certain nombre de sections pour étoffer l'association.
+Le foot en était évidemment un élément incontournable mais M. René Bron, instituteur, ayant pratiqué le ping-pong à Héricourt, créa la section Tennis de Table avec une poignée de joueurs dont les frères Gandelin, Pierrot Maillot dit \"poupousse\" et Pierre Roussel.
+
+ 
+Ils débutèrent en championnat en 1955 !
 
 
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam qui vel cupiditate exercitationem, ea fuga est
-  velit nulla culpa modi quis iste tempora non, suscipit repellendus labore voluptatem dicta amet? Lorem ipsum
-  dolor sit amet, consectetur adipisicing elit. Provident, neque!"
+Au départ, les matchs se déroulaient dans la salle des fêtes, puis rapidement on aménagea une salle, 2 étages plus haut sous le toit de l'aile gauche du château.
+
+
+Selon les hivers, il  pouvait arriver de devoir enlever la neige sur les tables (un match contre Clairefontaine se joua même sur le verglas ! La neige qui fondait sur les abats jour des lampes gelait lorsqu'elle touchait la table... toute une époque)
+
+​
+A la fin des années 60, les fils Bron (Pierre, Jean-Marie et Jean-François) associés à Pierre Maillot, Alain Déprédurand et Jacky Grillot accédèrent à la régionale 3.
+
+Ils s'y maintinrent relativement facilement jusqu'en 1975, date à laquelle les joueurs précédents quittèrent le club.
+
+​
+Il ne restait que 4 joueurs (Dominique et René Bron, Thierry et Alain Prévost) pour une équipe à 3 joueurs engagée en Départementale 2. La montée en D1 l'année suivante nous imposa de recruter 2 joueurs (Olivier Vatin et Pierre Maillot) pour une équipe de 6.
+
+
+Depuis la fin des années 80 d'autres générations de joueurs se sont succédées et la compétition se déroule désormais dans une annexe du gymnase collège du collège. 
+C'est nettement plus confortable pour tout le monde ;-)
+
+
+Notre équipe 1ere a, pendant plusieurs années créée une entente avec celle du club de Jussey (plus ancien club de Haute-Saône qui a connu la N2 dans sa jeunesse !).
+Aujourd'hui nous avons une entente le club de Port-Vaivre et les 2 clubs se battent ainsi pour atteindre le plus haut niveau régional.
+
+
+Alors, n'hésitez pas et venez nous soutenir et découvrir la vie du club de tennis de table de Vauvillers !"
 
   button:
     enable : true
-    label : "Download Company Profile"
-    link : "#"
+    label : "Le ping en club"
+    link : "/service"
 
+  enablefacts: false
   funfacts:
   # funfacts loop
   - icon : "ion-ios-flask-outline" #ionicon pack v2 : https://ionicons.com/v2/
@@ -60,7 +85,7 @@ about:
 
 ################################ feature #####################################
 features:
-  enable : true
+  enable : false
   title : "We are indepented Design & Development Agency"
   feature_item:
   # feature item loop
@@ -96,11 +121,11 @@ features:
 
 #################################### testimonial & mission vision #######################################
 testimonial:
-  enable : true
+  enable : false
   # testimonial content comes from "data/*/homepage.yml" file
 
 mission_vision:
-  enable : true
+  enable : false
   tabs:
   # tab item loop
   - name : "Vision"
