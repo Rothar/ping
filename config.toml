@@ -129,10 +129,17 @@ link = "#"
 
 
 ################################# Plugins #####################################
+# css carrousel
+[[params.plugins.css]]
+link = "css/aidacapom.styles.css"
+attributes = "media='screen'"
+
 # css custom
 [[params.plugins.css]]
 link = "css/custom.css"
 attributes = "media='screen'"
+
+
 # CSS Plugins
 [[params.plugins.css]]
 link = "plugins/bootstrap/css/bootstrap.min.css"
@@ -172,7 +179,10 @@ attributes = ""
 link = "plugins/shuffle/shuffle.min.js"
 attributes = ""
 
-
+# JS Carrousel
+[[params.plugins.js]]
+link = "js/aidacapom.index.js"
+attributes = ""
 
 
 ################################# Vauvillers T.T. ##########################
