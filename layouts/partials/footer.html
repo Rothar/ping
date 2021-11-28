@@ -5,7 +5,7 @@
 				<div class="footer-menu">
 					<ul>
             {{ range site.Menus.footer }}
-            <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+					    <li><a href="{{ .URL | relLangURL }}" target="_blanck"><img class="img-responsive" src="{{ .Pre | relURL }}">{{ .Name }}</a></li> 
             {{ end }}
 					</ul>
 				</div>

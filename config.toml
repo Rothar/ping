@@ -8,7 +8,7 @@ paginate = "12"
 # Post excerpt length
 summaryLength = "50"
 # Disabled languages
-disableLanguages = ["en"]
+disableLanguages = ["en","de"]
 # Short name to enable Disqus comments
 disqusShortname = "" # Get your shortname from here: https://disqus.com/profile/signup/
 # Measurement ID (G-XXXXXXX) to enable Google Analytics
@@ -202,34 +202,35 @@ name = "Plus"
 
 # Footer menu
 [[languages.fr.menu.footer]]
-name = "À propos"
-URL = "about"
+name = "FFTT"
+URL = "http://www.fftt.com"
+pre = "images/logo/logoFFTT.png"
 weight = 1
 
 [[languages.fr.menu.footer]]
-name = "Partenaires"
-URL = "partenaire"
+name = "Ligue Régionale"
+URL = "http://www.lbfctt.fr"
+pre = "images/logo/logoBFC.png"
 weight = 2
 
 [[languages.fr.menu.footer]]
-name = "Service"
-URL = "service"
+name = "Ping Pocket"
+URL = "http://pingpocket.fr"
+pre = "images/logo/pingpocket.jpg"
 weight = 3
 
 [[languages.fr.menu.footer]]
-name = "Ping au collège"
-URL = "college"
+name = "Suivez-nous"
+URL = "https://www.facebook.com/vauvillers.tennisdetable"
+pre = "images/logo/fcbk.png"
 weight = 4
-
-[[languages.fr.menu.footer]]
-name = "Questions fréquentes"
-URL = "faq"
-weight = 5
 
 [[languages.fr.menu.footer]]
 name = "Contact"
 URL = "contact"
-weight = 6
+pre = "images/logo/email.png"
+weight = 5
+
 
 ################################# Trémonzey #########################
 [languages.trem]
@@ -243,6 +244,25 @@ copyright = "Copyright &copy; 2021 [Themefisher](https://themefisher.com). All R
 # NOTE: Leaf entries linking to content should be defined in the content file's respective front matter.
 
 [[languages.trem.menu.footer]]
+name = "FFTT"
+URL = "http://www.fftt.com"
+pre = "images/logo/logoFFTT.png"
+weight = 1
+
+[[languages.trem.menu.footer]]
+name = "Ligue Régionale"
+URL = "http://www.lbfctt.fr"
+pre = "images/logo/logoBFC.png"
+weight = 2
+
+[[languages.trem.menu.footer]]
+name = "Ping Pocket"
+URL = "http://pingpocket.fr"
+pre = "images/logo/pingpocket.jpg"
+weight = 3
+
+[[languages.trem.menu.footer]]
 name = "Contact"
 URL = "contact"
-weight = 6
+pre = "images/logo/email.png"
+weight = 4

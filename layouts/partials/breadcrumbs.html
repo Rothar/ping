@@ -1,0 +1,28 @@
+<div id="breadcrumbs">
+    <a href="/">Accueil</a>
+    {{ .Scratch.Set "permalinkparts" (split .RelPermalink "/") }}
+    {{ range $index, $part := (.Scratch.Get "permalinkparts") }}
+        {{ range $i, $num := (seq 10) }}
+            {{ if ge $index $i }}
+                {{ if eq $i 0 }}
+                    {{ $.Scratch.Set "url" (index ($.Scratch.Get "permalinkparts") $i) }}
+                {{ else }}
+                    {{ $.Scratch.Add "url" (print (index ($.Scratch.Get "permalinkparts") $i) "/") }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+        {{ if gt (len $part ) 0 }}
+            / <a href="/{{ $.Scratch.Get "url" }}">
+                {{ if (eq $part (i18n "about_a")) }}
+                    {{ i18n "about_b" }}
+                {{ else if (eq $part (i18n "project_a")) }}
+                    {{ i18n "project_b" }}
+                {{ else if (eq $part (i18n "service_a")) }}
+                    {{ i18n "service_b" }}
+                {{ else }}
+                    {{ $part }}
+                {{ end }}
+            </a>   
+        {{ end }}
+    {{ end }}
+</div>

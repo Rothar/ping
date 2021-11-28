@@ -38,3 +38,11 @@ september = "septembre"
 october = "octobre"
 november = "novembre"
 december = "décembre"
+
+## translation for titles
+about_a ="about"
+about_b = "L'historique du club"
+project_a = "project"
+project_b = "Activités sportives"
+service_a = "service"
+service_b = "Le ping en club"

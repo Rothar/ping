@@ -54,7 +54,7 @@ portfolio:
   enable: true
   bg_image: "images/free/bluebg.jpg"
   title: "Joueurs et équipes"
-  content: "Si vous désirez avoir le détail des joueurs et équipe engagés (merci pingpocket!) 
+  content: "Si vous désirez avoir le détail des joueurs et équipes engagés (merci pingpocket!) 
   C'est par ici !"
 
   button:

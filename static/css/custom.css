@@ -26,12 +26,18 @@
     margin-bottom: 30px;
     margin-top: 1em;
 }
+div.footer-menu img {
+	max-width: 50px;
+	max-height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 .service div.container div.row div.col-md-3:first-child {
     min-width: 40%;
 }
 .feature p{
-    color:black;
+    color:black !important;
 }
 figure{
     width: fit-content;
@@ -53,6 +59,10 @@ section.about {
 .portfolio-hover{
 	opacity: 1 !important;
 	visibility: visible !important;
+}
+
+div#breadcrumbs{
+	margin-left: 1em;
 }
 
 /* début tableau */
