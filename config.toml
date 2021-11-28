@@ -203,19 +203,19 @@ name = "Plus"
 # Footer menu
 [[languages.fr.menu.footer]]
 name = "FFTT"
-URL = "http://www.fftt.com"
+URL = "https://www.fftt.com"
 pre = "images/logo/logoFFTT.png"
 weight = 1
 
 [[languages.fr.menu.footer]]
 name = "Ligue Régionale"
-URL = "http://www.lbfctt.fr"
+URL = "https://www.lbfctt.fr"
 pre = "images/logo/logoBFC.png"
 weight = 2
 
 [[languages.fr.menu.footer]]
 name = "Ping Pocket"
-URL = "http://pingpocket.fr"
+URL = "https://pingpocket.fr"
 pre = "images/logo/pingpocket.jpg"
 weight = 3
 
@@ -245,19 +245,19 @@ copyright = "Copyright &copy; 2021 [Themefisher](https://themefisher.com). All R
 
 [[languages.trem.menu.footer]]
 name = "FFTT"
-URL = "http://www.fftt.com"
+URL = "https://www.fftt.com"
 pre = "images/logo/logoFFTT.png"
 weight = 1
 
 [[languages.trem.menu.footer]]
 name = "Ligue Régionale"
-URL = "http://www.lbfctt.fr"
+URL = "https://www.lbfctt.fr"
 pre = "images/logo/logoBFC.png"
 weight = 2
 
 [[languages.trem.menu.footer]]
 name = "Ping Pocket"
-URL = "http://pingpocket.fr"
+URL = "https://pingpocket.fr"
 pre = "images/logo/pingpocket.jpg"
 weight = 3
 
