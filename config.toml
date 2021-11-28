@@ -184,6 +184,12 @@ attributes = ""
 link = "js/aidacapom.index.js"
 attributes = ""
 
+################################# Sitemap ##################################
+[sitemap]
+    changefreq = "weekly"
+    filename = "sitemap.xml"
+    priority = 0.5
+
 
 ################################# Vauvillers T.T. ##########################
 [languages.fr]
