@@ -54,13 +54,15 @@ sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
 ################################# Contact page ################################
 [params.contact]
 # Address block
-phone = "0124857985320"
-email = "glangonet@gmail.com"
+phone = ""
+email = "ttvauvillers.mickael@gmail.com"
 location = """
 **Vauvillers Tennis de Table**  
 RUE DE LA MALADIÈRE 
+
 SALLE RENE BRON
 ANNEXE DU GYMNASE DU COLLÈGE 
+
 70210 VAUVILLERS
 """
 # Whether to display text descriptors (like "E-mail: ", "Phone: ") before the address block elements

@@ -56,11 +56,11 @@
             {{ else }}
               {{ if isset site.Params.contact "email" }}<li><i class="ion-ios-email-outline"></i>{{ if site.Params.contact.address_descriptors }}{{ i18n "email" | printf "%s: " }}{{ end }}{{ partial "cloak_email" site.Params.contact.email }}</li>{{ end }}
             {{ end }}
-            {{ if isset .Params "phone" }}
+           <!--  {{ if isset .Params "phone" }}
               <li><i class="ion-ios-telephone-outline"></i>{{ if site.Params.contact.address_descriptors }}{{ i18n "phone" | printf "%s: " }}{{ end }}<div>{{ .Params.phone | markdownify }}</div></li>
             {{ else }}
               {{ if isset site.Params.contact "phone" }}<li><i class="ion-ios-telephone-outline"></i>{{ if site.Params.contact.address_descriptors }}{{ i18n "phone" | printf "%s: " }}{{ end }}{{ site.Params.contact.phone }}</li>{{ end }}
-            {{ end }}
+            {{ end }} -->
           </ul>
           <ul class="social-icons">
             {{ if isset .Params "facebook_icon" }}

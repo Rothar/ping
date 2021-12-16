@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+{{ $mycontent := .Content }}
+{{ with .Params.pricing }}
+{{ if .enable }}
+<div class="container"><div class="row">
+    <div class="col-md-7 col-sm-12"> 
+        {{ $mycontent }}
+      </div></div> </div>
+{{ partial "pricing.html" . }}
+{{ end }}
+
+{{ end }}
+
+<!-- Call to action -->
+{{ if .Params.cta.enable }}
+{{ partial "cta.html" . }}
+{{ end }}
+<!-- /Call to action -->
+
+{{ end }}

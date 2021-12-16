@@ -1,15 +1,16 @@
 ---
-title: "Contactez-nous"
-description: "this is meta description"
+title: "Localisation"
+description: ""
 map_latitude: "47.972871"
 map_longitude: "6.237866"
-phone: "010101010101"
-email: "glangonet@ibmineractive.com"
-location: "
-**Trémonzey Association Sportive** <br> 
-PLACE DU CENTRE<br>
+phone: ""
+email: ""
+location: "Trémonzey Association Sportive
+
+PLACE DU CENTRE
+
 88240 TREMONZEY"
-bg_image: "images/feature-bg.jpg"
+bg_image: ""
 layout: "contact"
 draft: false
 menu:
