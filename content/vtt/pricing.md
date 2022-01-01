@@ -17,7 +17,7 @@ pricing:
   # pricing table loop
   - name : "Licence promo"
     price: "80€"
-    content : "Licence de base pour pouvoir pratiquer le ping à Vauvillers en loisirs"
+    content : "Licence de base pour pouvoir pratiquer le ping à Vauvillers en loisir"
     link : "#"
     services:
 
@@ -44,4 +44,4 @@ cta:
 
 ### Nota Bene
  - Pour 2 joueurs de la même famille un abattement de 10€ est pratiqué sur la 2ème licence.
- - Les inscriptions au critérium fédéral sont à régler en sus selon le prix demandé par le CD.
+ - Les inscriptions au critérium fédéral sont à régler en sus selon le prix demandé par le Comité Départemental.

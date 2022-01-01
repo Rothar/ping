@@ -102,6 +102,8 @@ service:
     - icon : ion-home #ionicon pack v2 : https://ionicons.com/v2/
       name: Brocante annuelle
       content: "Le club organise depuis 20 ans un vide grenier dans le village le dernier dimanche d'Août."
+      enable : true
+      link : blog/brocante
 
     # service item loop
     - icon : ion-music-note #ionicon pack v2 : https://ionicons.com/v2/

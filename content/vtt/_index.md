@@ -21,29 +21,21 @@ about:
   enable: true
   title: "Vauvillers T.T."
   description: "Le club compte près de 90 licenciés (compétition et loisir) et est ouvert à toutes et tous."
-  content: "
-<br>
-N° d'affiliation : 11700005​
-
-
-Ligue : Bourgogne-Franche Comté
-
-
-Comité de Haute-Saône
-
-
-Le club :
-
-
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Président :   BUBBA Emilio
-
-
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entraîneur : COLOMBIN Mickaël
-
-
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact :      PREVOST Alain
-"
   image: "images/equipe/Team2.jpg"
+  index_slider:
+  - content: '<h2>Bienvenue sur le nouveau site du club de tennis de table de Vauvillers.</h2><h4>C&apos;est la nouvelle année alors nous faisons peau neuve <i class="ion-happy-outline"></i></h4>'
+  - content: "<br>N° d'affiliation : 11700005​<br>
+Ligue : Bourgogne-Franche Comté<br>
+Comité de Haute-Saône<br>
+Le club :<br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Président :   BUBBA Emilio<br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entraîneur : COLOMBIN Mickaël<br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact :      PREVOST Alain"
+    image: "images/divers/labels_ping.gif" 
+  - image : "images/indiv/Gab_Internationaux_2021.jpg"
+    content: "<h3>Internationaux Jeunes du Grand Est</h3>Gabrielle termine sur le podium de sa catégorie « benjamines 1 » sur sa première sortie avec la délégation de Bourgogne Franche-Comté !!!"
+
+
   button:
     enable: true
     label: "Page contact"

@@ -33,10 +33,26 @@
       <div class="col-md-7 col-sm-12">
         <div class="block">
           <div class="section-title">
-            {{ with .title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+            {{ with .title }}<h2>{{ . | markdownify }}</h2>{{ end }} 
             {{ with .description }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
           </div>
-          {{ with .content }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="testimonial-carousel">
+          <div class="testimonial-slider owl-carousel">
+            {{ range .index_slider }}
+            <div>
+              {{ with .content }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
+              <div class="user">
+                {{ if .image }}
+                <img src="{{ .image | relURL }}" alt="client">
+                {{ end }}
+              </div>
+            </div>
+            {{ end }}
+          </div>
           {{ with .button }}
           {{ if .enable }}
           <a href="{{ .link | relLangURL }}" class="btn btn-view-works">{{ .label }}</a>
@@ -44,6 +60,7 @@
           {{ end }}
         </div>
       </div>
+
       <div class="col-md-5 col-sm-12">
         <div class="block">
           <img src="{{ .image | relURL }}" class="img-responsive" alt="Img">
