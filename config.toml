@@ -1,6 +1,6 @@
 ################################# Basic configuration #########################
 # Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-baseURL = "http://examplesite.org"
+baseURL = "https://www.vauvillerstt.club"
 title = "Vauvillers Tennis de Table | le ping en Haute-Saône"
 theme = "airspace-hugo"
 # Number of posts per page in list view
@@ -8,11 +8,11 @@ paginate = "12"
 # Post excerpt length
 summaryLength = "50"
 # Disabled languages
-disableLanguages = ["en","de"]
+disableLanguages = ["en","de","trem"]
 # Short name to enable Disqus comments
 disqusShortname = "" # Get your shortname from here: https://disqus.com/profile/signup/
 # Measurement ID (G-XXXXXXX) to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "G-T4SNX9Q6M5"
 
 defaultContentLanguage = "fr"
 
