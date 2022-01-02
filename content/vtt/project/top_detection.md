@@ -1,6 +1,6 @@
 ---
 title: "Top Détection"
-description: "Aux niveaux département et régional"
+description: "La découverte des futurs champions - Comité Départementale de Tennis de Table de Haute-Saône"
 draft: false
 image : "images/entrainement/top_detection/2019_top2.jpg"
 bg_image: "images/entrainement/top_detection/2019_top2.jpg"
@@ -9,46 +9,17 @@ carrousel:
   enable: true
   folder: "entrainement/top_detection"
 information:
-  - label : "Client"
-    info : "Jannie Kelonsky"
-  - label : "What We Did"
-    info : "Website Redesign"
-  - label : "Tools Used"
-    info : "Photoshop,Illustrator"
-  - label : "Completed on"
-    info : "17th March 2014"
-  - label : "Skills"
-    info : "HTML5 / PHP / CSS3"
-  - label : "Client"
-    info : "Jannie Kelonsky"
+  - label : "Haut niveau"
+    info : "[F.F.T.T.](http://www.fftt.com/site/fftt/documentations/haut-niveau/detection)"
+  - label : "Département"
+    info : "[Comité Départemental de Haute-Saône](https://www.facebook.com/Comit%C3%A9-D%C3%A9partemental-de-Tennis-de-Table-de-Haute-Sa%C3%B4ne-1845327985593609/)"
 ---
 
-## Behance Website Redesign
+## Niveaux départemental et régional
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas officiis cumque, harum dicta necessitatibus
-reprehenderit, delectus molestiae, impedit alias adipisci distinctio voluptas. Tempora modi amet voluptate
-at provident soluta consequatur.
+Le top détection est une compétition annuelle permettant de détecter les talents les plus prometteurs. 
+Pour les meilleurs jeunes joueurs de la région, cet événement peut même conduire, à terme, à avoir accès au groupe France détection.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quibusdam sed, neque recusandae, est
-odit. A facere tempore soluta laborum.
+Je vous invite à cliquer sur le lien de la [page Facebook du Comité Départemental de Haute-Saône](https://www.facebook.com/Comit%C3%A9-D%C3%A9partemental-de-Tennis-de-Table-de-Haute-Sa%C3%B4ne-1845327985593609/) 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, rem eaque facilis. Sit, voluptas?
-Error soluta odio, harum tenetur, alias in iure ipsam blanditiis illo, ratione, magnam a minima incidunt!
-Suscipit facilis, ut maxime libero necessitatibus, rerum aut voluptates aliquam maiores iusto qui
-temporibus nesciunt, incidunt in quasi. Veniam aliquid ea aperiam, obcaecati voluptate ab, temporibus
-fugiat at, inventore molestiae quibusdam, modi numquam debitis libero aut eum. Architecto sit quia quidem
-odit, quasi eveniet reprehenderit rerum dolorem voluptate sed aspernatur numquam enim, adipisci iste optio
-ea libero laboriosam praesentium aperiam nobis vero tempore consequuntur sapiente eos at. Suscipit quis
-voluptatibus temporibus dolore consectetur ex excepturi adipisci sunt. Maxime aperiam eos illum minima
-aliquid voluptate autem qui at impedit recusandae earum possimus, alias, maiores sint, sed quia quis aut
-cupiditate voluptatem reiciendis. Facilis nobis assumenda totam officiis dicta autem dolorem quidem
-similique, delectus rerum laborum veritatis, cum magnam dignissimos necessitatibus possimus error, eius
-omnis veniam culpa, porro officia adipisci exercitationem minus hic. Ipsum veritatis repudiandae nulla quo
-dicta voluptates tenetur mollitia perferendis sequi, magnam doloremque odit similique, sit, voluptas unde
-iste molestias. Accusantium, corporis quibusdam quod in animi earum alias autem ipsum. Eaque rem numquam
-delectus veniam commodi doloribus consequatur deleniti?
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores neque vero quasi quisquam atque in,
-libero ab sunt eius! Nesciunt laboriosam alias corporis sit accusantium voluptate sapiente debitis quos
-mollitia saepe maxime ipsum facilis dolore voluptas inventore veniam deleniti, eligendi harum aperiam iusto
-culpa? Delectus dolorum facere quasi iure explicabo?
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D4208111602648557%26id%3D1845327985593609&show_text=true&width=500" width="500" height="709" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>

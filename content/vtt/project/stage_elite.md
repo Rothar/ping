@@ -36,4 +36,4 @@ Les journées sont studieuses et efficaces :
 Mais l'ambiance y est décontractée et conviviale.
 
 ​
-NB : les places sont limitées. Donc n'hésitez pas à contacter rapidement M. Mickaël Colombin pour l'année prochaine !!
+NB : <i class="ion-alert-circled"></i> `les places sont limitées`. Donc n'hésitez pas à contacter rapidement M. Mickaël Colombin pour l'année prochaine !!
