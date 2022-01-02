@@ -55,7 +55,7 @@ sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
 [params.contact]
 # Address block
 phone = ""
-email = "ttvauvillers.mickael@gmail.com,guillaumelangonet@ymail.com"
+email = "ttvauvillers.mickael@gmail.com"
 location = """
 **Vauvillers Tennis de Table**  
 RUE DE LA MALADIÈRE 
