@@ -43,7 +43,7 @@ logo = "images/racket-smile.svg"
 # OpenGraph / Twitter Card metadata
 description = "Vauvillers Tennis de Table : le ping dans les Vosges Saônoises."
 author = "Vauvillers Tennis de Table"
-image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
+image = "images/salle/Salle4.jpg" # this image will be used as fallback if a page has no image of its own
 
 
 ################################# Sidebar widgets #############################
@@ -55,7 +55,7 @@ sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
 [params.contact]
 # Address block
 phone = ""
-email = "ttvauvillers.mickael@gmail.com"
+email = "ttvauvillers.mickael@gmail.com,guillaumelangonet@ymail.com"
 location = """
 **Vauvillers Tennis de Table**  
 RUE DE LA MALADIÈRE 
