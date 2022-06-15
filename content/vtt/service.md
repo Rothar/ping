@@ -77,19 +77,21 @@ service:
       name: Championnat par équipe
       content: "Toutes les 2 semaines (environ hein...) par équipes de 4 aux niveaux départemental et régional."
       enable : true
-      link : resultat
+      link : news
 
     # service item loop
     - icon : ion-person #ionicon pack v2 : https://ionicons.com/v2/
       name: Compétitions individuelles
       content: "Championnat et/ou criterium, selon le niveau, la catégorie d'âge ou le classement. Il y a de multiples possibilités de briller pour les joueurs"
       enable : true
-      link : resultat
+      link : news
 
     # service item loop
     - icon : ion-university #ionicon pack v2 : https://ionicons.com/v2/
       name: Le ping au collège 
       content: "Le club est étroitement lié à la section sport étude Tennis de Table du collège Charles Péguy"
+      enable: true
+      link: project/college
 
     # service item loop
     - icon : ion-egg #ionicon pack v2 : https://ionicons.com/v2/

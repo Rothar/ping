@@ -42,6 +42,7 @@ C'est nettement plus confortable pour tout le monde ;-)
 
 Notre équipe 1ere a, pendant plusieurs années créée une entente avec celle du club de Jussey (plus ancien club de Haute-Saône qui a connu la N2 dans sa jeunesse !).
 Aujourd'hui nous avons une entente le club de Port-Vaivre et les 2 clubs se battent ainsi pour atteindre le plus haut niveau régional.
+Nous sommes également très proche du club de Trémonzey qui nous a apporté un effectif des plus talentueux.
 
 
 Alors, n'hésitez pas et venez nous soutenir et découvrir la vie du club de tennis de table de Vauvillers !"

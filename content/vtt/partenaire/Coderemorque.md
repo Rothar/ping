@@ -18,6 +18,9 @@ information:
     info : "https://www.code-remorques.fr/module/blockfaq/faq"
   - label : "Web"
     info : "[Page facebook](https://www.facebook.com/coderemorques)"
+carrousel:
+  enable: true
+  folder: "portfolio/partenaire/code/"
 ---
 
 ## Tout les accessoires remorque en ligne !

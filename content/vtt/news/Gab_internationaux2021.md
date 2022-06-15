@@ -6,7 +6,7 @@ image : "images/indiv/Delegation_BFC_2021.jpg"
 bg_image: ""
 categories: ["Individuel","Internationaux Grand Est", "Délégation régionale"]
 tags: ["individuel","Bourgogne","Franche-Comté", "Régional","Internationaux"]
-description: ""
+description: "Cabrielle aux Internationaux de Bourgogne-Franche-Comté 2021"
 draft: false
 type: "post"
 ---

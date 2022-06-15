@@ -23,7 +23,7 @@ about:
   description: "Le club compte près de 90 licenciés (compétition et loisir) et est ouvert à toutes et tous."
   image: "images/equipe/Team2.jpg"
   index_slider:
-  - content: '<h2>Bienvenue sur le nouveau site du club de tennis de table de Vauvillers.</h2><h4>C&apos;est la nouvelle année alors nous faisons peau neuve <i class="ion-happy-outline"></i></h4>'
+  - content: '<h2>Bienvenue sur le nouveau site du club de tennis de table de Vauvillers.</h2><h4>Nous faisons peau neuve <i class="ion-happy-outline"></i></h4>'
   - content: "<br>N° d'affiliation : 11700005​<br>
 Ligue : Bourgogne-Franche Comté<br>
 Comité de Haute-Saône<br>
@@ -33,7 +33,9 @@ Le club :<br>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact :      PREVOST Alain"
     image: "images/divers/labels_ping.gif" 
   - image : "images/indiv/Gab_Internationaux_2021.jpg"
-    content: "<h3>Internationaux Jeunes du Grand Est</h3>Gabrielle termine sur le podium de sa catégorie « benjamines 1 » sur sa première sortie avec la délégation de Bourgogne Franche-Comté !!!"
+    content: "<h3>Internationaux Jeunes du Grand Est</h3>Gabrielle termine sur <a href=./news/gab_internationaux2021>le podium de sa catégorie</a> « benjamines 1 » sur sa première sortie avec la délégation de Bourgogne Franche-Comté !!!"
+  - image : "images/championnat_france/2022/affiche2022.jpg"
+    content: "<h3>Championnat de France</h3>Notre meilleure joueuse, Gabrielle, participe <a href=./news/gab_france2022>aux championnats de France Benjamin(e)s</a> à Joué Lès Tours !!!"
 
 
   button:
@@ -74,6 +76,7 @@ cta:
 
 ############################# Funfacts ###############################
 funfacts:
+# funfacts non utilisés pour le ping de Vauvillers
   enable: false
   title: "Fun Facts About Us"
   description: "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"

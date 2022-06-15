@@ -28,6 +28,9 @@
         <div class="project-content mt-50">
           {{ .Content }}
         </div>
+        <div>{{ if .Params.carrousel.enable }}
+          {{ partial "carrousel.html" . }}
+        {{ end }}</div>
       </div>
     </div>
   </div>

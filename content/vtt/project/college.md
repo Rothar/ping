@@ -7,7 +7,7 @@ bg_image: "images/entrainement/college/groupe2019.jpg"
 category: "Futurs champions"
 carrousel:
   enable: true
-  folder: "entrainement/college"
+  folder: "college/2022/championnat_academique/"
 information:
   - label : "Professeur"
     info : "M. Rongeot"
@@ -21,17 +21,17 @@ information:
 
 Depuis 2017, le collège de Vauvillers compte une section sport étude Tennis de Table.
 
-​
 
 16 élèves dans la section.
 
 3 entraînements spécifiques par semaine (lundi, jeudi et  vendredi).
 
-​
 
 Les sélections se font sur une demi journée avec test physique, et compétition de tennis de table.
 
 Elles ont lieu chaque année en mars pour l’année suivante.
+
+![Sélection 2022](../../images/college/selection2022.jpg "Sélection 2022")
 
 
 M. Rongeot est le professeur de sport coordinateur (joignable au collège).
