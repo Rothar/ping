@@ -17,13 +17,14 @@ carrousel:
 ## Le club accueille la Coupe de Haute-Saône
 
 Format "Coupe Davis" : par équipe de 2. 2 simples pour chaque joueur et 1 double.<br>
-25 équipes inscrites sur 4 tableaux : 
+#### 25 équipes inscrites sur 4 tableaux : 
 - < à 1300 pts
 - de 1300pts à 1599 pts
 - de 1600 pts à 1799 pts
-- > à 1800 pts
+- \> à 1800 pts
 
-Belle réussite pour le club : 
+
+#### Belle réussite pour le club : 
 - 9 équipes alignées
 - 2 victoires
 - 2 2e place
