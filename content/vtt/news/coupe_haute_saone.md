@@ -4,8 +4,8 @@ Author: Guillaume Langonet
 date: 2022-06-12T11:07:10+06:00
 description: "Vauvillers accueille la coupe Claude Goffinet !"
 draft: false
-image : "images/topgirl/affiche2022.jpg"
-bg_image: "images/topgirl/2022/top_girls_2022_1.jpg"
+image : "images/coupe_haute_saone/2022/coupe_goffinet_1.jpg"
+bg_image: "images/coupe_haute_saone/2022/coupe_goffinet_1.jpg"
 type: "post"
 categories: ["Coupe","Haute-Saône"]
 tags: ["Coupe","Haute-Saône"]
