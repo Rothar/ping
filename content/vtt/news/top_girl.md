@@ -14,7 +14,7 @@ carrousel:
   folder: "topgirl/2022/"
 ---
 
-## Le club accueillle le tournoi régional Top Girl pour la 1ere fois
+## Le club accueille le tournoi régional Top Girl pour la 1ere fois
 
 Une quinzaine de filles du club ont participé.
 
