@@ -177,14 +177,6 @@ tbody:hover tr:hover td {
     font-weight: bold;
 }
 /* fin tableau */
-p {
-	color: #4d4b4b !important;
-}
-div.portfolio-content p {
-	background: rgba(25, 25, 25, .65);
-	color: #7b7b7b !important;
-}
-div.bg-primary div.block p,
-div.bg-primary-dark div.block p{
-	color: #7b7b7b !important;
+div.custom-color p {
+	color: #4d4b4b;
 }

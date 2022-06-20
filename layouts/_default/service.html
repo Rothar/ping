@@ -47,7 +47,7 @@
     <div class="row">
       {{ range .service_item }}
       <div class="col-md-4 bg-primary bg-{{ .color }}">
-        <div class="block">
+        <div class="block custom-color">
           <i class="{{ .icon }}"></i>
           {{ with .name }}<h3>{{ . | markdownify }}</h3>{{ end }}
           {{ with .content }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}

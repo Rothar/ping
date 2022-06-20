@@ -32,10 +32,10 @@ Le club :<br>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entraîneur : COLOMBIN Mickaël<br>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact :      PREVOST Alain"
     image: "images/divers/labels_ping.gif" 
-  - image : "images/indiv/Gab_Internationaux_2021.jpg"
-    content: "<h3>Internationaux Jeunes du Grand Est</h3>Gabrielle termine sur <a href=./news/gab_internationaux2021>le podium de sa catégorie</a> « benjamines 1 » sur sa première sortie avec la délégation de Bourgogne Franche-Comté !!!"
   - image : "images/championnat_france/2022/affiche2022.jpg"
     content: "<h3>Championnat de France</h3>Notre meilleure joueuse, Gabrielle, participe <a href=./news/gab_france2022>aux championnats de France Benjamin(e)s</a> à Joué Lès Tours !!!"
+  - image: "images/championnat_ligue_bfc/2022/ligue_bfc_26.jpg"
+    content: '<a href=./news/championnat_ligue_2022>Titres Individuels et Handisport Régionaux pour les championnats de la Ligue Bourgogne-Franche-Comté de Tennis de Table en jeu le WE des 18&19 juin à Besançon</a>.<br> De très bonnes perfs pour le club de Vauvillers <i class="ion-happy-outline"></i>'
 
 
   button:
