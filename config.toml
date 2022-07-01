@@ -1,6 +1,6 @@
 ################################# Basic configuration #########################
 # Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-baseURL = "https://www.vauvillerstt.club"
+baseURL = "https://www.vauvillerstt.fr"
 title = "Vauvillers Tennis de Table | le ping en Haute-Saône"
 theme = "airspace-hugo"
 # Number of posts per page in list view
