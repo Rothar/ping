@@ -25,12 +25,12 @@ l'établissement est également à votre disposition pour le tabac, loto, pmu.
 
 | Jour     |    Matinée    | Soir      | 
 |----------|:-------------:|:------:     |
-| Lundi    | 07h30 - 14h30 | Fermé | 
-| Mardi    | 07h30 - 14h30 | 16h30 - 21h00 | 
-| Mercredi | 07h30 - 14h30 | 16h30 - 21h00 | 
-| Jeudi    | 07h30 - 14h30 | 16h30 - 21h00 | 
-| Vendredi | 07h30 - 14h00 | 16h30 - 21h00 | 
-| Samedi   | 07h30 - 14h00 | 16h30 - 21h00 | 
-| dimanche | 08h30 - 12h00 | Fermé | 
+| Lundi    | 07h30 - 12h30 | 15h00 - 19h00 | 
+| Mardi    | 07h30 - 12h30 | 15h00 - 19h00 | 
+| Mercredi | 07h30 - 12h30 | 15h00 - 19h00 | 
+| Jeudi    | 07h30 - 12h30 | 15h00 - 19h00 | 
+| Vendredi | 07h30 - 12h30 | 15h00 - 19h00 | 
+| Samedi   | 07h30 - 12h30 | 15h30 - 19h00 | 
+| dimanche | 07h30 - 12h30 | Fermé | 
 
 </div>

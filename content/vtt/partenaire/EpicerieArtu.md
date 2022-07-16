@@ -1,6 +1,6 @@
 ---
 title: "Epicerie ARTU"
-description: "Pour vos courses de proximité à Vauvillers et à Amance !"
+description: "Pour vos courses de proximité à Vauvillers"
 draft: false
 image : "images/portfolio/partenaire/proxi/proxi-super.png"
 bg_image: "images/portfolio/partenaire/proxi/proxi-super.png"
@@ -10,14 +10,6 @@ information:
     info : "20 Grande Rue 70210 Vauvillers"
   - label : "Tél."
     info : "03 84 92 87 97"
-  - label : "Amance"
-    info : "28 Grande Rue 70160 Amance"
-  - label : "Tél."
-    info : " 03 84 78 08 33"
-  - label : "Skills"
-    info : "HTML5 / PHP / CSS3"
-  - label : "Client"
-    info : "Jannie Kelonsky"
 ---
 
 ## Proxi Artu

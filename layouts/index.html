@@ -52,6 +52,9 @@
               </div>
             </div>
             {{ end }}
+            <div><br>
+              {{ partial "widgets/recent_posts.html" . }}
+            </div>
           </div>
           {{ with .button }}
           {{ if .enable }}

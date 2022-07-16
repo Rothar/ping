@@ -23,19 +23,19 @@ about:
   description: "Le club compte près de 90 licenciés (compétition et loisir) et est ouvert à toutes et tous."
   image: "images/equipe/Team2.jpg"
   index_slider:
-  - content: '<h2>Bienvenue sur le nouveau site du club de tennis de table de Vauvillers.</h2><h4>Nous faisons peau neuve <i class="ion-happy-outline"></i></h4>'
-  - content: "<br>N° d'affiliation : 11700005​<br>
+  - content: '<h2>Bienvenue sur le nouveau site du club de tennis de table de Vauvillers.</h2><h4>Nous faisons peau neuve <i class="ion-happy-outline"></i></h4>
+  <br>N° d&quot;affiliation : 11700005​<br>
 Ligue : Bourgogne-Franche Comté<br>
 Comité de Haute-Saône<br>
 Le club :<br>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Président :   BUBBA Emilio<br>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entraîneur : COLOMBIN Mickaël<br>
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact :      PREVOST Alain"
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact :      PREVOST Alain'
     image: "images/divers/labels_ping.gif" 
-  - image : "images/championnat_france/2022/affiche2022.jpg"
-    content: "<h3>Championnat de France</h3>Notre meilleure joueuse, Gabrielle, participe <a href=./news/gab_france2022>aux championnats de France Benjamin(e)s</a> à Joué Lès Tours !!!"
-  - image: "images/championnat_ligue_bfc/2022/ligue_bfc_26.jpg"
-    content: '<a href=./news/championnat_ligue_2022>Titres Individuels et Handisport Régionaux pour les championnats de la Ligue Bourgogne-Franche-Comté de Tennis de Table en jeu le WE des 18&19 juin à Besançon</a>.<br> De très bonnes perfs pour le club de Vauvillers <i class="ion-happy-outline"></i>'
+#  - image : "images/championnat_france/2022/affiche2022.jpg"
+#    content: "<h3>Championnat de France</h3>Notre meilleure joueuse, Gabrielle, participe <a href=./news/gab_france2022>aux championnats de France Benjamin(e)s</a> à Joué Lès # Tours !!!"
+#  - image: "images/championnat_ligue_bfc/2022/ligue_bfc_26.jpg"
+#    content: '<a href=./news/championnat_ligue_2022>Titres Individuels et Handisport Régionaux pour les championnats de la Ligue Bourgogne-Franche-Comté de Tennis de Table en # jeu le WE des 18&19 juin à Besançon</a>.<br> De très bonnes perfs pour le club de Vauvillers <i class="ion-happy-outline"></i>'
 
 
   button:
