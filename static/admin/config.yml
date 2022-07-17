@@ -4,9 +4,23 @@ backend:
 media_folder: static/images/_fromcms
 public_folder: /images/_fromcms
 collections:
-  - name: 'vtt'
-    label: 'Vauvillers Tennis de Table'
+  - name: 'news'
+    label: 'Résultats sportifs'
     folder: 'content/vtt/news'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}/index'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Titre', name: 'title', widget: 'string' }
+      - { label: 'Date de publication', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'Image de fond', name: 'bg_image', widget: 'image', required: false }
+      - { label: 'Corps du texte', name: 'body', widget: 'markdown' }
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'content/vtt/blog'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}/index'
     editor:
