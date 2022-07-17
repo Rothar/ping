@@ -158,4 +158,12 @@
 {{ end}}
 <!-- /funfacts -->
 
+
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script type="text/javascript">
+    if (window.location.hash.includes('_token=')) {
+      window.location.replace('/admin/' + window.location.hash)
+    }
+</script>
+
 {{ end }}
