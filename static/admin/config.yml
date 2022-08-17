@@ -2,15 +2,13 @@ backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
 publish_mode: editorial_workflow
-media_folder: static/images/_fromcms
-public_folder: /images/_fromcms
+media_folder: static/images/_fromcms/{{year}}-{{month}}-{{day}}-{{slug}}
+public_folder: /images/_fromcms/{{year}}-{{month}}-{{day}}-{{slug}}
 collections:
   - name: 'news'
     label: 'Résultats sportifs'
     folder: 'content/vtt/news'
-    media_folder: ''
-    public_folder: ''
-    create: true
+    media_folder: '{{media_folder}}'
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}/index'
     editor:
       preview: false
@@ -24,8 +22,6 @@ collections:
   - name: 'blog'
     label: 'Blog'
     folder: 'content/vtt/blog'
-    media_folder: ''
-    public_folder: ''
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}/index'
     editor:
