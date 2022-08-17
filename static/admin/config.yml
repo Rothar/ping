@@ -8,8 +8,8 @@ collections:
   - name: 'news'
     label: 'Résultats sportifs'
     folder: 'content/vtt/news'
-    media_folder: "../"
-    public_folder: "../"
+    media_folder: ""
+    public_folder: ""
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}/index'
     editor:
