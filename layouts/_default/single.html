@@ -25,9 +25,13 @@
             </ul>
 					</div>
 					<div class="post-thumb">
-            {{ with .Params.image -}}					
-						<img class="img-responsive" src="{{ . | relURL }}" alt="{{ $.Title }}">		
-            {{- end }}
+						{{ if isset .Params "cms"}}
+						<img class="img-responsive" src=".{{ . | relURL }}" alt="{{ $.Title }}">
+						{{ else }}
+							{{ with .Params.image -}}			
+										<img class="img-responsive" src="{{ . | relURL }}" alt="{{ $.Title }}">		
+							{{- end }}
+						{{end}}
 					</div>
 					<div class="post-content post-excerpt">
 						{{ .Content }} 
