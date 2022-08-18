@@ -8,7 +8,8 @@ collections:
   - name: 'news'
     label: 'Résultats sportifs'
     folder: 'content/vtt/news'
-    media_folder: '{{media_folder}}'
+    create: true
+    media_folder: '{{media_folder}}/news'
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}/index'
     editor:
       preview: true
@@ -24,9 +25,10 @@ collections:
     label: 'Blog'
     folder: 'content/vtt/blog'
     create: true
+    media_folder: '{{media_folder}}/blog'
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}/index'
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: 'Titre', name: 'title', widget: 'string' }
       - { label: 'Date de publication', name: 'date', widget: 'datetime' }
