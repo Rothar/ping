@@ -25,7 +25,7 @@
             </ul>
 					</div>
 					<div class="post-thumb">
-						{{ if isset .Params "cms"}}
+						{{ if isset .Params "cmsflag"}}
 						<img class="img-responsive" src=".{{ . | relURL }}" alt="{{ $.Title }}">
 						{{ else }}
 							{{ with .Params.image -}}			
