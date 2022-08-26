@@ -32,7 +32,7 @@ Vous trouverez vite la localisation idéale pour vous.
 #### 3. Prix des licences
 
 Les tarifs compétitions peuvent évoluer au cours des années en fonction du niveau des affiliations.
-Les tarifs oscillent entre 50€, pour les petits, et 95€ pour les licences compétitions.
+Les tarifs oscillent entre 50€, pour les petits, et 100€ pour les licences compétitions.
 Vous retrouverez les prix actuels en consultant [=> cette page <=](../) 
 
 #### 4. Certificat médical

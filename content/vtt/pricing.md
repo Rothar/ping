@@ -22,9 +22,16 @@ pricing:
     services:
 
   # pricing table loop
-  - name : "Licence compétition"
+  - name : "Licence compétition Poussins à Juniors"
     price: "95€"
     content : "Pour la compétition, la vraie ;-p 
+    <br><br>"
+    link : "#"
+    services:
+  
+  - name : "Licence compétition Seniors"
+    price: "100€"
+    content : "Un petit effort les seniors svp :-) 
     <br><br>"
     link : "#"
     services:
