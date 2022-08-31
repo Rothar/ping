@@ -16,9 +16,9 @@ carrousel:
 
 
 ​Le `28 Août` 2022 a vu se dérouler la 20e brocante à Vauvillers.
-Celle-ci est organisée depuis 2001, et prend place régulièrement désormais ses quartiers le `dernier dimanche du mois d'Août`.
+Celle-ci est organisée depuis 2001, et prend régulièrement ses quartiers le `dernier dimanche du mois d'Août`.
 
 PLus de 90 exposants, le beau temps et une buvette qui a été prise d'assaut et qui a vu son stock se vider comme jamais.
-Dsl pour celles et ceux qui n'on pu avoir de barquettes de frites, nous tâcherons de trouver des solutions pour équilibrer la quantité et toujours éviter le gâchis pour l'année prochaine.
+Dsl pour celles et ceux qui n'ont pu avoir de barquettes de frites, nous tâcherons de trouver des solutions pour équilibrer la quantité et toujours éviter le gâchis pour l'année prochaine.
 
 Dans tous les cas, l'événement a été un succès. Voici, ci-dessous quelques souvenirs de la journée.

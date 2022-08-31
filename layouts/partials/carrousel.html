@@ -1,37 +1,30 @@
 
-
-
- <div class="col-md-12">
-    <div class="body_carrousel carrousel">
-        
+  <section class="gallery bg-gray">
+    <div class="container col-md-12">
+      <div class="row">
+        {{ $url := (printf "/images/%s" .Params.carrousel.folder) }}
+        {{ $folder := (printf "/static/images/%s" .Params.carrousel.folder ) }}
+        {{ range (os.ReadDir $folder) }}
+          {{ if not ( .IsDir ) }}
           
-      {{ $url := (printf "/images/%s" .Params.carrousel.folder) }}
-      {{ $folder := (printf "/static/images/%s" .Params.carrousel.folder ) }}
-      {{ $files := readDir $folder }}
-      {{ $counter := 0 }}
-      <div>
-        {{ range $files }}
-        {{ $counter = add $counter 1 }}
-        <div class="carrousel-item {{ if eq $counter 1 }} carrousel-item-visible {{ end }}">
-          <!-- <a href="{{$url}}/{{.Name | urlize }}"> -->
-            <img class="carrousel-item-img" src="{{$url}}/{{.Name | urlize }}" alt="{{ .Name }}">
-          <!-- </a> -->
-        </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="gallery-item">
+                <img loading="lazy" src="{{$url}}/{{ .Name }}" class="img-fluid" alt="gallery-image">
+                <a data-fancybox="images" href="{{$url}}/{{ .Name }}"></a>
+                <!-- 
+                {{ if (in .Name "_") }}
+                {{ $tabData := split .Name "_" }}
+                <h3>{{ index ($tabData) 0 }}</h3>
+                {{ $tabData2 := split (index ($tabData) 1) "." }}
+                <p>{{ index ($tabData2) 0 }} </p>
+                {{ end }}
+                -->
+              </div>
+            </div>
+          {{ end }}
         {{ end }}
+  
       </div>
-      <div class="carrousel-actions">
-            <button class="btn btn-carrousel" id="carrousel-btn-prev" aria-label="Previous slide">
-                <i class="icon ion-android-arrow-dropleft-circle"></i>
-            </button>
-            <button class="btn btn-carrousel" id="carrousel-btn-next" aria-label="Next slide">
-                <i class="icon ion-android-arrow-dropright-circle"></i>
-            </button>
-      </div>
-
-      
-  </div>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
-  </div>
-    
+    </div>
+  </section>
         

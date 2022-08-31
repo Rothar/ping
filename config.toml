@@ -131,11 +131,6 @@ link = "#"
 
 
 ################################# Plugins #####################################
-# css carrousel
-[[params.plugins.css]]
-link = "css/aidacapom.styles.css"
-attributes = "media='screen'"
-
 # css custom
 [[params.plugins.css]]
 link = "css/custom.css"
@@ -146,6 +141,10 @@ attributes = "media='screen'"
 [[params.plugins.css]]
 link = "plugins/bootstrap/css/bootstrap.min.css"
 attributes = "media='screen'"
+
+[[params.plugins.css]]
+link = "plugins/fancybox/jquery.fancybox.min.css"
+attributes = ""
 
 [[params.plugins.css]]
 link = "plugins/ionicons/css/ionicons.min.css"
@@ -173,6 +172,7 @@ attributes = ""
 link = "plugins/slick/slick.min.js"
 attributes = ""
 
+
 [[params.plugins.js]]
 link = "plugins/magnific-popup/magnific-popup.min.js"
 attributes = ""
@@ -183,8 +183,8 @@ attributes = ""
 
 # JS Carrousel
 [[params.plugins.js]]
-link = "js/aidacapom.index.js"
-attributes = ""
+link = "plugins/fancybox/jquery.fancybox.min.js"
+attributes = "defer"
 
 ################################# Sitemap ##################################
 [sitemap]
