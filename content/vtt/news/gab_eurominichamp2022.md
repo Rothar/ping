@@ -24,6 +24,6 @@ Gabou éliminée en 16eme de finale 3/1 dont deux manches aux avantages face à 
 
 
 La délégation tout de même récompensée avec la troisième place de Jean Marin.
-Merci à la Ligue Bourgogne-Franche-Comté de Tennis de Table pour la sélection :-)
+Merci à la [Ligue Bourgogne-Franche-Comté de Tennis de Table](https://www.facebook.com/LBFCTT/) pour la sélection :-)
 
 
