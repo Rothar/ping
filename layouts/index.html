@@ -45,13 +45,20 @@
             {{ range .index_slider }}
             <div>
               {{ with .content }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
-              <div class="user">
-                {{ if .image }}
-                <img src="{{ .image | relURL }}" alt="client">
+            {{ end }}
+              <div class="user"> 
+                {{ if isset . "labels" }}
+                <h5>Nos labels <a href="https://www.fftt.com/site/jouer/services-clubs/labels-clubs" target="_blank">FFTT</a></h5>
+                <ul class="labels">
+                  {{ range .labels}} 
+                  {{ if .enable }} 
+                  <li><img src="{{ .img | relURL }}" class="img-responsive" alt="{{ .label }}" title="{{ .label }}"></li>
+                  {{ end }}
+                  {{ end }}
+                  </ul>
                 {{ end }}
               </div>
             </div>
-            {{ end }}
             <div><br>
               {{ partial "widgets/recent_posts.html" . }}
             </div>

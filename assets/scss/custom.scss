@@ -74,3 +74,13 @@
       }
     }
   }
+
+
+  div.user ul.labels {
+    max-width: 350px;
+    text-align: center;
+  }
+  div.user ul.labels li {
+    display: inline-table;
+  }
+  

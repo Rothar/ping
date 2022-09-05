@@ -31,12 +31,43 @@ Le club :<br>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Président :   BUBBA Emilio<br>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entraîneur : COLOMBIN Mickaël<br>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact :      PREVOST Alain'
-    image: "images/divers/labels_ping.gif" 
-#  - image : "images/championnat_france/2022/affiche2022.jpg"
-#    content: "<h3>Championnat de France</h3>Notre meilleure joueuse, Gabrielle, participe <a href=./news/gab_france2022>aux championnats de France Benjamin(e)s</a> à Joué Lès # Tours !!!"
-#  - image: "images/championnat_ligue_bfc/2022/ligue_bfc_26.jpg"
-#    content: '<a href=./news/championnat_ligue_2022>Titres Individuels et Handisport Régionaux pour les championnats de la Ligue Bourgogne-Franche-Comté de Tennis de Table en # jeu le WE des 18&19 juin à Besançon</a>.<br> De très bonnes perfs pour le club de Vauvillers <i class="ion-happy-outline"></i>'
-
+  labels:
+    - img: "images/divers/labelsfftt/acti.png"
+      label: "Acti Ping : Vitalité et dynamisme du club"
+      enable: true
+    - img: "images/divers/labelsfftt/equipe.png"
+      label: "Equip Ping : Conditions matérielles d’accueil"
+      enable: true
+    - img: "images/divers/labelsfftt/4-7.png"
+      label: "Ping 4/7 ans : Travail effectué auprès des petits pongistes."
+      enable: true
+    - img: "images/divers/labelsfftt/promo.png"
+      label: "Promo Ping : Promotion de l’activité via la communication et les organisations."
+      enable: false
+    - img: "images/divers/labelsfftt/educ.png"
+      label: "Educ Ping : Actions en milieu scolaire."
+      enable: true
+    - img: "images/divers/labelsfftt/loisir.png"
+      label: "Loisir Ping : Animation auprès de publics non compétiteurs."
+      enable: false
+    - img: "images/divers/labelsfftt/feminin.png"
+      label: "Ping au féminin : Accueil et actions auprès des féminines"
+      enable: false
+    - img: "images/divers/labelsfftt/forma.png"
+      label: "Forma Ping : Connaissances et compétences acquises lors des formations de dirigeants, d’arbitres et de techniciens."
+      enable: false
+    - img: "images/divers/labelsfftt/durable.png"
+      label: "Ping Responsable (ex Ping Durable) : Écologie, la sensibilisation aux dérives."
+      enable: false
+    - img: "images/divers/labelsfftt/handi.png"
+      label: "Handi Ping : Pratique des sportifs en situation de handicap moteur et/ou mental."
+      enable: false
+    - img: "images/divers/labelsfftt/form.png"
+      label: "Ping Santé Bien-Etre : Activité physique et pongiste auprès de publics en bonne santé."
+      enable: false
+    - img: "images/divers/labelsfftt/sante.jpg"
+      label: "Ping Santé sur ordonnance : en direction de personnes ayant des pathologies lourdes (cancer, Parkinson, Alzheimer)."
+      enable: false
 
   button:
     enable: true
