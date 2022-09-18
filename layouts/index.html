@@ -33,7 +33,8 @@
       <div class="col-md-7 col-sm-12">
         <div class="block">
           <div class="section-title">
-            {{ with .title }}<h2>{{ . | markdownify }}</h2>{{ end }} 
+            {{ with .title }}<h2 id="titreindex">{{ . | markdownify }}</h2>{{ end }} 
+            <a rel='alternate' type='application/rss+xml' href='/index.xml'><img src="/images/noun-rss.svg" alt="Flux RSS"  class="img-responsive" id="fluxrss"></a>
             {{ with .description }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
           </div>
         </div>

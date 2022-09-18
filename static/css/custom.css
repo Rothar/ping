@@ -14,7 +14,18 @@
     width:90px;
     margin-top: 5px;
     display: inline-block;
-    margin-right: 5px;;
+    margin-right: 5px;
+}
+#titreindex{
+	max-width: fit-content;
+	display: inline-block;
+}
+#fluxrss {
+    width:30px;
+	height: 30px;
+    position: absolute;
+	top: 3rem;
+	right: 8rem;
 }
 .portfolio-single-page .project-details strong {
     display: inline-block;

@@ -61,4 +61,9 @@
   {{ "<!-- Favicon -->" | safeHTML }}
   {{ partial "favicon.html" . }}
 
+  <link rel="alternate"
+      type="application/rss+xml"
+      href="{{.Site.BaseURL }}/index.xml"
+      title="{{ .Site.Title }}">
+
 </head>

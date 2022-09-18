@@ -21,8 +21,11 @@ defaultContentLanguage = "fr"
 # Documentation: https://gohugo.io/templates/output-formats/#customizing-output-formats
 
 [outputs]
-home = [ "HTML" ]
+home = [ "HTML","RSS" ]
 
+[Author]
+    name = "Vauvillers Tennis de Table"
+    email = "ttvauvillers.mickael@gmail.com"
 
 ################################# Markup ######################################
 # Documentation: https://gohugo.io/getting-started/configuration-markup

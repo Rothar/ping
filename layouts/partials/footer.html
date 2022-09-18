@@ -7,6 +7,8 @@
             {{ range site.Menus.footer }}
 					    <li><a href="{{ .URL | relLangURL }}" target="_blanck"><img class="img-responsive" src="{{ .Pre | relURL }}">{{ .Name }}</a></li> 
             {{ end }}
+			<li><a rel='alternate' type='application/rss+xml' href='/index.xml'><img src="/images/noun-rss.svg" alt="Flux RSS"  class="img-responsive" >Flux RSS</a>
+            </li>
 					</ul>
 				</div>
 				<p class="copyright">{{ site.Params.copyright | markdownify }}</p>

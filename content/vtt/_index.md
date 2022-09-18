@@ -34,22 +34,22 @@ Le club :<br>
   labels:
     - img: "images/divers/labelsfftt/acti.png"
       label: "Acti Ping : Vitalité et dynamisme du club"
-      enable: true
+      enable: false
     - img: "images/divers/labelsfftt/equipe.png"
       label: "Equip Ping : Conditions matérielles d’accueil"
-      enable: true
+      enable: false
     - img: "images/divers/labelsfftt/4-7.png"
       label: "Ping 4/7 ans : Travail effectué auprès des petits pongistes."
       enable: true
     - img: "images/divers/labelsfftt/promo.png"
       label: "Promo Ping : Promotion de l’activité via la communication et les organisations."
-      enable: false
+      enable: true
     - img: "images/divers/labelsfftt/educ.png"
       label: "Educ Ping : Actions en milieu scolaire."
       enable: true
     - img: "images/divers/labelsfftt/loisir.png"
       label: "Loisir Ping : Animation auprès de publics non compétiteurs."
-      enable: false
+      enable: true
     - img: "images/divers/labelsfftt/feminin.png"
       label: "Ping au féminin : Accueil et actions auprès des féminines"
       enable: false
