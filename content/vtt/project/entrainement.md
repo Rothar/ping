@@ -8,6 +8,11 @@ category: "Entrainement"
 carrousel:
   enable: true
   folder: "entrainement/entrainement"
+menu:
+  main:
+    parent: "Plus"
+    name: "Entrainements"
+    weight: 2
 information:
   - label : "Salle René BRON"
     info : "Rue de la Maladière 
