@@ -5,7 +5,7 @@ image : "images/resultat/2223P1/20220924_Djeunes_1ere_journee.jpg"
 bg_image: "images/salle/grand-angle.jpg"
 categories: ["Entrainement"]
 tags: ["jeunes","poussins","exercices"]
-description: "Les graines de chamions à l'entrainement à Vauvillers"
+description: "Les graines de champions à l'entrainement à Vauvillers"
 draft: false
 type: "post"
 ---
