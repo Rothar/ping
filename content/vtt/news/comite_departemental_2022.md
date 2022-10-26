@@ -14,7 +14,7 @@ carrousel:
   folder: "comite_interdepartemental/2022/"
 ---
 
-## Compétion inter-comités 2021-2022
+## Compétition inter-comités 2021-2022
 
 Retour en photos sur la participation de 4 de nos pongistes avec l'équipe de Haute saône , les inter comités.
 C'est une compétition qui rassemble tous les comités de la zone Grand est et Bourgogne Franche comté. 
