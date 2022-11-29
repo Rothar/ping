@@ -1,5 +1,14 @@
 <div class="widget widget-latest-post">
     <h4 class="widget-title">{{ i18n "latest_posts" }} <a href="../" title="Retour" class="right"><i class="icon ion-arrow-return-left"></i></a></h4>
+    <div class="media">
+      <a class="pull-left" href="/championnat">
+        <img class="media-object" src="/images/equipe/Team2.jpg" alt="Championnat par équipes">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading"><a href="/championnat">Championnat par équipes</a></h4>
+        <p>Tous les résultats de la phase en cours</p>
+      </div>
+    </div>
     {{ range first 4 (where site.Pages "Type" "post") }}
     <div class="media">
       <a class="pull-left" href="{{ .RelPermalink }}">

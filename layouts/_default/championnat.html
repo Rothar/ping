@@ -1,0 +1,64 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<section class="">
+    <div class="container">
+      <div class="row">
+		<h3> Saison {{ .Params.ping.saison }}, phase {{ .Params.ping.phase }}</h3>
+		<h4>Les résultats ci-dessous sont fournis par le <a href="https://www.pingpocket.fr" target="_blank">site pingpocket.fr</a></h4>
+		
+    <div class="championnat col-md-11">
+		{{ $myphase := .Params.ping.phase }}
+		{{ $myarray := .Params.ping.lst_senior }}
+		{{ $myarray2 := .Params.ping.lst_jeune }}
+		{{ $nbsuite := add .Params.ping.nb_senior .Params.ping.nb_jeune}}
+		
+		<div id="accordion" class="panel-group">
+			<h2> Equipes séniors</h2>
+			{{ range $num := (seq .Params.ping.nb_senior) }}
+			<div class="panel panel-default">
+				<div class="panel-heading">
+				   <div class="panel-title">
+					  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ . }}">
+						{{ $myindex := sub $num 1 }}
+						{{ index $myarray $myindex }}
+					  </a>
+				   </div>
+				</div>
+				<div id="collapse{{ . }}" class="panel-collapse collapse">
+				   <div class="panel-body">
+					<iframe src="https://www.pingpocket.fr/app/fftt/clubs/02700005/equipes/{{ . }}/championnats/masculin?phase={{ $myphase }}" width="400" height="500" style="border:none;overflow:hidden;" scrolling="auto" frameborder="0" allowfullscreen="true" loading="lazy"></iframe>
+				   </div>
+				</div>
+			</div>
+			{{ end }}
+
+			<h2> Equipes jeunes</h2>
+			{{ range $num := (seq .Params.ping.nb_jeune) }}
+			<div class="panel panel-default">
+				<div class="panel-heading">
+				   <div class="panel-title">
+					  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ $nbsuite }}">
+						{{ $myindex := sub $num 1 }}
+						{{ index $myarray2 $myindex }}
+					  </a>
+				   </div>
+				</div>
+				<div id="collapse{{ $nbsuite }}" class="panel-collapse collapse">
+				   <div class="panel-body">
+					<iframe src="https://www.pingpocket.fr/app/fftt/competitions/organisations/74/divisions/108752/poules/443889?COMPETITION_ORGANIZATION_NAME=HAUTE+SAONE&COMPETITION_ORGANIZATION_TYPE=COMMITTEE&COMPETITION_CONTEST_ID=8990&COMPETITION_CONTEST_NAME=Championnat+Departemental+Jeune&COMPETITION_CONTEST_TYPE=TEAM&COMPETITION_DIVISION_NAME=D70_+DJ+Nouvelle+Formule&COMPETITION_POOL_NAME=D70_+DJ+Nouvelle+Formule+Poule+{{ . }}&phase={{ $myphase }}&genre=NOT_DEFINED" width="400" height="500" style="border:none;overflow:hidden;" scrolling="auto" frameborder="0" allowfullscreen="true" loading="lazy"></iframe>
+				   </div>
+				</div>
+			</div>
+			{{ end }}
+			
+		</div>
+
+    </div>
+
+        </div>
+    </div>
+  </section>
+
+{{ end }}

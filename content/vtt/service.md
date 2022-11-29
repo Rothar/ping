@@ -77,7 +77,7 @@ service:
       name: Championnat par équipe
       content: "Toutes les 2 semaines (environ hein...) par équipes de 4 aux niveaux départemental et régional."
       enable : true
-      link : news
+      link : championnat
 
     # service item loop
     - icon : ion-person #ionicon pack v2 : https://ionicons.com/v2/

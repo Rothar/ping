@@ -10,7 +10,7 @@ menu:
   main:
     parent: "Plus"
     name: "FAQ"
-    weight: 3
+    weight: 7
 ---
 
 ### Bienvenue au club de Vauvillers Tennis de Table

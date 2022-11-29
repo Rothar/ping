@@ -7,5 +7,5 @@ menu:
   main:
     parent: "Plus"
     name: "Activités sportives"
-    weight: 3
+    weight: 4
 ---
