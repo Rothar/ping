@@ -1,7 +1,7 @@
 ---
 title: "Saison 2022/2023 - Critérium"
 date: 2022-12-03T09:10:10+06:00
-image : "images/criterium/2022_decembre/criterieum_2022_1.jpg"
+image : "images/criterium/2022_decembre/criterium_2022_1.jpg"
 bg_image: "images/salle/grand-angle.jpg"
 categories: ["Critérium"]
 tags: ["jeunes","individuels","compétition"]
