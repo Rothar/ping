@@ -22,9 +22,9 @@ ping:
     - Départementale 3
   nb_jeune: 3
   lst_jeune:
-    - DJeunes Poule 1
-    - DJeunes Poule 2
-    - DJeunes Poule 3
-  phase: 1
+    - DJeunes Poule 1 |443903
+    - DJeunes Poule 2 |571259
+    - DJeunes Poule 3 |571259
+  phase: 2
   saison: "2022-2023"
 ---

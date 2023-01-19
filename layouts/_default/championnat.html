@@ -12,7 +12,7 @@
 		{{ $myphase := .Params.ping.phase }}
 		{{ $myarray := .Params.ping.lst_senior }}
 		{{ $myarray2 := .Params.ping.lst_jeune }}
-		{{ $nbsuite := add .Params.ping.nb_senior .Params.ping.nb_jeune}}
+		{{ $.Scratch.Set "nbsuite" (add .Params.ping.nb_senior .Params.ping.nb_jeune) }}
 		
 		<div id="accordion" class="panel-group">
 			<h2> Equipes séniors</h2>
@@ -35,22 +35,27 @@
 			{{ end }}
 
 			<h2> Equipes jeunes</h2>
-			{{ range $num := (seq .Params.ping.nb_jeune) }}
-			<div class="panel panel-default">
+			{{ range $num := (seq .Params.ping.nb_jeune) }} 
+			<div class="panel panel-default"> 
 				<div class="panel-heading">
 				   <div class="panel-title">
-					  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ $nbsuite }}">
+					  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ ($.Scratch.Get "nbsuite") }}">
 						{{ $myindex := sub $num 1 }}
-						{{ index $myarray2 $myindex }}
+						{{ $tmp := index $myarray2 $myindex }}
+						{{ $arrayJ := split $tmp "|" }}
+						{{ index $arrayJ 0 }}
 					  </a>
 				   </div>
 				</div>
-				<div id="collapse{{ $nbsuite }}" class="panel-collapse collapse">
+				<div id="collapse{{ ($.Scratch.Get "nbsuite") }}" class="panel-collapse collapse">
 				   <div class="panel-body">
-					<iframe src="https://www.pingpocket.fr/app/fftt/competitions/organisations/74/divisions/108752/poules/443889?COMPETITION_ORGANIZATION_NAME=HAUTE+SAONE&COMPETITION_ORGANIZATION_TYPE=COMMITTEE&COMPETITION_CONTEST_ID=8990&COMPETITION_CONTEST_NAME=Championnat+Departemental+Jeune&COMPETITION_CONTEST_TYPE=TEAM&COMPETITION_DIVISION_NAME=D70_+DJ+Nouvelle+Formule&COMPETITION_POOL_NAME=D70_+DJ+Nouvelle+Formule+Poule+{{ . }}&phase={{ $myphase }}&genre=NOT_DEFINED" width="400" height="500" style="border:none;overflow:hidden;" scrolling="auto" frameborder="0" allowfullscreen="true" loading="lazy"></iframe>
-				   </div>
+				<!--	<iframe src="https://www.pingpocket.fr/app/fftt/competitions/organisations/74/divisions/108752/poules/443889?COMPETITION_ORGANIZATION_NAME=HAUTE+SAONE&COMPETITION_ORGANIZATION_TYPE=COMMITTEE&COMPETITION_CONTEST_ID=8990&COMPETITION_CONTEST_NAME=Championnat+Departemental+Jeune&COMPETITION_CONTEST_TYPE=TEAM&COMPETITION_DIVISION_NAME=D70_+DJ+Nouvelle+Formule&COMPETITION_POOL_NAME=D70_+DJ+Nouvelle+Formule+Poule+{{ . }}&phase={{ $myphase }}&genre=NOT_DEFINED" width="400" height="500" style="border:none;overflow:hidden;" scrolling="auto" frameborder="0" allowfullscreen="true" loading="lazy"></iframe>
+				-->	
+					<iframe src="https://www.pingpocket.fr/app/fftt/competitions/organisations/74/divisions/108755/poules/{{ index $arrayJ 1 }}?COMPETITION_ORGANIZATION_NAME=HAUTE+SAONE&COMPETITION_ORGANIZATION_TYPE=COMMITTEE&COMPETITION_CONTEST_ID=8990&COMPETITION_CONTEST_NAME=Championnat+Departemental+Jeune&COMPETITION_CONTEST_TYPE=TEAM&COMPETITION_DIVISION_NAME=D70_Phase+3+Dj+Nouvelle+Formule&COMPETITION_POOL_NAME=D70_+DJ+Nouvelle+FormuleCOMPETITION_POOL_NAME=D70_Phase+3+Dj+Nouvelle+Formule+Poule+5&amp;phase={{ $myphase }}&genre=NOT_DEFINED" width="400" height="500" style="border:none;overflow:hidden;" scrolling="auto" frameborder="0" allowfullscreen="true" loading="lazy"></iframe>
 				</div>
-			</div>
+				</div>
+			</div> 
+			{{ $.Scratch.Set "nbsuite" (add ($.Scratch.Get "nbsuite") 1) }}
 			{{ end }}
 			
 		</div>
